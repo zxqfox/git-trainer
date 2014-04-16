@@ -94,6 +94,7 @@ function GitCommander(repo) {
         })
         .alias({
             b: 'branch',
+            br: 'branch',
             co: 'checkout',
             ci: 'add && commit'
         });
